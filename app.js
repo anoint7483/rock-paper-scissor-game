@@ -23,7 +23,7 @@ const showWinner = (userWin) => {
     if (userWin) {
         console.log("you win!");
         msg.innerText = "You win!";
-        msg.style.color = "green";
+        msg.style.color = "lightgreen";
         userScore ++;
         user_score.innerText = userScore
     } else {

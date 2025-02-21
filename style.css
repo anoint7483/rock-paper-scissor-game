@@ -11,12 +11,6 @@ h1{
     line-height: 5rem;
 }
 
-.choice {
-    /* border-radius: 50px; */
-    /* height: 200px;
-    width: 200px; */
-}
-
 .choices{
     display: flex;
     border: 5px black;
@@ -24,6 +18,15 @@ h1{
     align-items: center;
     gap: 3rem;
     margin-top: 5rem;
+}
+
+.choices img{
+   border-radius: 120px;
+}
+
+.choices:hover {
+    color: red;
+    cursor: pointer;
 }
 
 .score-board{
@@ -49,10 +52,10 @@ h1{
     border-radius: 1rem;
     padding: 1px 12px 4px 12px;
 }
-/* .msg-container :hover {
+.msg-container :hover {
     color: red;
     cursor: pointer;
-} */
+}
 
 /* .msg-container{
     padding: 5px;
