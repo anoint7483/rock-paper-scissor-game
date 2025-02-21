@@ -12,12 +12,14 @@ h1{
 }
 
 .choice {
+    /* border-radius: 50px; */
     /* height: 200px;
     width: 200px; */
 }
 
 .choices{
     display: flex;
+    border: 5px black;
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -40,11 +42,19 @@ h1{
 }
 
 .msg{
-    background-color: #081b31;
+    background-color: #353c45;
     color: #fff;
     font-size: 2rem;
     display: inline;
     border-radius: 1rem;
+    padding: 1px 12px 4px 12px;
 }
+/* .msg-container :hover {
+    color: red;
+    cursor: pointer;
+} */
 
-
+/* .msg-container{
+    padding: 5px;
+}
+ */
